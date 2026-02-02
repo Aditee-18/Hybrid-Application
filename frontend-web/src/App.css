@@ -447,3 +447,41 @@ button:hover {
 .history-summary span:nth-child(1)::before { content: "Avg Temperature"; }
 .history-summary span:nth-child(2)::before { content: "Avg Pressure"; }
 .history-summary span:nth-child(3)::before { content: "Equip. Count"; }
+
+/* Styling for the Sign Up / Sign In toggle link */
+.auth-footer-link {
+    margin-top: 25px;
+    text-align: center;
+    font-size: 0.95rem;
+    color: #64748b;
+    border-top: 1px solid #f1f5f9;
+    padding-top: 20px;
+}
+
+.auth-footer-link a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.auth-footer-link a:hover {
+    text-decoration: underline;
+}
+
+/* Ensure consistent card sizing */
+.auth-card {
+    min-height: 520px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logout-btn {
+    background-color: #ef4444 !important; /* Professional Red */
+    padding: 8px 16px !important;
+    font-size: 0.9rem !important;
+    margin-left: 20px;
+}
+.logout-btn:hover {
+    background-color: #dc2626 !important;
+}

@@ -12,7 +12,7 @@ const Login = () => {
         e.preventDefault();
         try {
             await login(username, password);
-            navigate('/'); 
+            navigate('/');
         } catch (err) {
             alert("Login Failed! Check your username/password.");
         }
@@ -25,39 +25,38 @@ const Login = () => {
                     <h2>Chemical Equipment <span>Visualizer</span></h2>
                     <p>Enter your credentials to access the analytics portal.</p>
                 </div>
-                
+
                 <form onSubmit={handleSubmit} className="auth-form">
                     <div className="input-group">
                         <label>Username</label>
-                        <input 
-                            type="text" 
-                            placeholder="e.g. admin" 
+                        <input
+                            type="text"
+                            placeholder="e.g. admin"
                             value={username}
                             onChange={(e) => setUsername(e.target.value)}
-                            required 
+                            required
                         />
                     </div>
-                    
+
                     <div className="input-group">
                         <label>Password</label>
-                        <input 
-                            type="password" 
-                            placeholder="••••••••" 
+                        <input
+                            type="password"
+                            placeholder="••••••••"
                             value={password}
                             onChange={(e) => setPassword(e.target.value)}
-                            required 
+                            required
                         />
                     </div>
-                    
+
                     <button type="submit" className="login-submit-btn">
                         Enter Dashboard
                     </button>
                 </form>
 
                 <div className="auth-footer">
-                    <div className="info-badge">
-                        <i className="info-icon">i</i>
-                        <span>Use your Django admin credentials to login.</span>
+                    <div className="auth-footer-link">
+                        Don't have an account? <Link to="/signup">Register here</Link>
                     </div>
                 </div>
             </div>
