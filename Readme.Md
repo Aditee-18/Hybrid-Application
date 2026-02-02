@@ -18,7 +18,7 @@ The goal is to bridge the gap between a **portable Web Dashboard** and a **power
 
 ## 🧠 Tech Stack — *What & Why*
 
-The tech stack used in this roject is: 
+The tech stack used in this project is: 
 
 ---
 
@@ -87,5 +87,4 @@ Native desktop applications feel more robust and are ideal for offline or high-p
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd "HYBRID APPLICATION"
+git clone https://github.com/Aditee-18/Hybrid-Application.git
