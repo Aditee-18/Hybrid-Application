@@ -26,7 +26,7 @@ const Signup = () => {
         <div className="auth-container">
             <div className="auth-card">
                 <div className="auth-header">
-                    <h2>Join <span>Chemical Visulaizer App</span></h2>
+                    <h2>Join <span>Chemical Equipment Visualizer </span></h2>
                     <p>Create an account to start analyzing equipment data.</p>
                 </div>
                 
@@ -35,7 +35,7 @@ const Signup = () => {
                         <label>Choose Username</label>
                         <input 
                             type="text" 
-                            placeholder="e.g. aditee_engineer" 
+                            placeholder="e.g. admin" 
                             value={username}
                             onChange={(e) => setUsername(e.target.value)}
                             required 

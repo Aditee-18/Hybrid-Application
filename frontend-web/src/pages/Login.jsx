@@ -1,6 +1,6 @@
 import React, { useState, useContext } from 'react';
 import { AuthContext } from '../context/AuthContext';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 
 const Login = () => {
     const [username, setUsername] = useState('');
@@ -54,11 +54,10 @@ const Login = () => {
                     </button>
                 </form>
 
-                <div className="auth-footer">
-                    <div className="auth-footer-link">
+                <div className="auth-footer-link">
                         Don't have an account? <Link to="/signup">Register here</Link>
                     </div>
-                </div>
+
             </div>
         </div>
     );
