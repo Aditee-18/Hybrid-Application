@@ -7,12 +7,10 @@ The goal is to bridge the gap between a **portable Web Dashboard** and a **power
 ---
 
 ## Demo Video
+```bash
+https://drive.google.com/file/d/1CadII1MQU7x6Io-IsUfdpsL1q07nIrcF/view?usp=sharing
+```
 
-🌐 **Live Web Dashboard:**  
-👉 *INSERT YOUR VERCEL LINK HERE*
-
-📺 **Video Walkthrough (2–3 mins):**  
-👉 *INSERT YOUR YOUTUBE / DRIVE LINK HERE*
 
 ---
 
