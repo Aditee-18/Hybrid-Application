@@ -26,7 +26,7 @@ const Signup = () => {
         <div className="auth-container">
             <div className="auth-card">
                 <div className="auth-header">
-                    <h2>Join <span>Chemical App</span></h2>
+                    <h2>Join <span>Chemical Visulaizer App</span></h2>
                     <p>Create an account to start analyzing equipment data.</p>
                 </div>
                 
@@ -54,7 +54,7 @@ const Signup = () => {
                     </div>
                     
                     <button type="submit" className="login-submit-btn">
-                        Create Free Account
+                        Create Account
                     </button>
                 </form>
 
