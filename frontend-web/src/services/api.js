@@ -2,8 +2,8 @@ import axios from 'axios';
 
 // Initialize the API instance with your Django Backend URL
 const API = axios.create({
-    baseURL:"https://hybrid-application-production.up.railway.app/api"
-    // baseURL: 'http://127.0.0.1:8000/api', 
+    // baseURL:"https://hybrid-application-production.up.railway.app/api"
+     baseURL: 'http://127.0.0.1:8000/api', 
 });
 
 
