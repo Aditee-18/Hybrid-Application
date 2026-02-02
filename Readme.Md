@@ -18,7 +18,7 @@ The goal is to bridge the gap between a **portable Web Dashboard** and a **power
 
 ## 🧠 Tech Stack — *What & Why*
 
-The tech stack used in this roject is: 
+The tech stack used in this project is: 
 
 ---
 
